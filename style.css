@@ -8,6 +8,9 @@
     flex-direction: row;
     height: 70vh;
     width: 60%;
+    position: absolute; 
+  top: 50%; left: 50%; 
+  transform: translate(-50%, -50%);
     }
 .first-conternaire{
     background-color: hsl(31, 77%, 52%); 
@@ -57,6 +60,7 @@ div{
     gap: 55px;
     padding-left: 25px;
     padding-right: 25px;
+
 }
 img{
     height: 40px; 
