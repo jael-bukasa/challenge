@@ -106,7 +106,7 @@ p{
 }
 @media screen and (max-width: 811px) {
     .pricipal-contenaire{
-      flex-direction: column;
+      display: block;      
       height: 70vh;
       width: 70vw;
     }
