@@ -47,7 +47,7 @@ button{
     height: 40px;
     width: 150px;
     border: 3px solid white;
-    margin-top: 70px;
+    margin-top: 55px;
 }
 button:hover{
     color: white;
@@ -60,13 +60,13 @@ p{
 h1{
     font-family: 'Big Shoulders Display', cursive; 
     color: white;  
-    font-size: 2.5em;
+    font-size: 2.2em;
 }
 div{
     padding-top: 70px;
     display: flex;
     flex-direction: column;
-    gap: 55px;
+    gap: 50px;
     padding-left: 25px;
     padding-right: 25px;
 
@@ -74,4 +74,48 @@ div{
 img{
     height: 40px; 
     width: 60px;
+}
+@media screen and (max-width: 1641px) {
+    .first-button{
+     margin-top: 25px;
+    } 
+    .last-button{
+        margin-top: 25px;
+    }  
+}
+@media screen and (max-width: 1627px ){
+    button{
+        margin-top: 20px;
+    }
+    
+p{
+    font-size: 1.2em;
+}
+
+}
+@media screen and (max-width: 1458px) {
+    p{
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 944px) {
+    div{
+        padding-left: 15px;
+    }
+}
+@media screen and (max-width: 811px) {
+    .pricipal-contenaire{
+      flex-direction: column;
+      height: 70vh;
+      width: 70vw;
+    }
+    button{
+        margin-bottom: 40px;
+    }
+    div{
+        gap: 15px;
+        padding-top: 40px;
+    }
+ 
 }
